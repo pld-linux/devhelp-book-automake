@@ -2,12 +2,12 @@ Summary:	DevHelp book: automake
 Summary(pl):	Ksi±¿ka do DevHelpa o automake'u
 Name:		devhelp-book-automake
 Version:	1.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.devhelp.net/books/books/automake.tar.gz
 URL:		http://www.devhelp.net/
-Requires:	devhelp
+Requires:	devhelp >= 0.5.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -24,9 +24,9 @@ Ksi±¿ka do DevHelpa o automake'u.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_prefix}/{books/automake,specs}
+install -d $RPM_BUILD_ROOT%{_prefix}/books/automake
 
-install book.devhelp $RPM_BUILD_ROOT%{_prefix}/specs/automake.devhelp
+install book.devhelp $RPM_BUILD_ROOT%{_prefix}/books/automake/automake.devhelp
 install book/* $RPM_BUILD_ROOT%{_prefix}/books/automake
 
 %clean
@@ -35,4 +35,3 @@ rm -rf $RPM_BUILD_ROOT
 %files 
 %defattr(644,root,root,755)
 %{_prefix}/books/*
-%{_prefix}/specs/*
