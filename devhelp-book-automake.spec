@@ -6,6 +6,7 @@ Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.devhelp.net/books/books/automake.tar.gz
+# Source0-md5:	3dd4ef2d0f1f33778ae808c1327690b4
 URL:		http://www.devhelp.net/
 Requires:	devhelp >= 0.5.0
 BuildArch:	noarch
