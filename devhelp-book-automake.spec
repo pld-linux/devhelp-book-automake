@@ -1,5 +1,5 @@
 Summary:	DevHelp book: automake
-Summary(pl.UTF-8):   Książka do DevHelpa o automake'u
+Summary(pl.UTF-8):	Książka do DevHelpa o automake'u
 Name:		devhelp-book-automake
 Version:	1.0
 Release:	2
