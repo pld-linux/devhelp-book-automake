@@ -1,5 +1,5 @@
 Summary:	DevHelp book: automake
-Summary(pl):	Ksi±¿ka do DevHelpa o automake'u
+Summary(pl.UTF-8):   KsiÄ…Å¼ka do DevHelpa o automake'u
 Name:		devhelp-book-automake
 Version:	1.0
 Release:	2
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 DevHelp book about automake.
 
-%description -l pl
-Ksi±¿ka do DevHelpa o automake'u.
+%description -l pl.UTF-8
+KsiÄ…Å¼ka do DevHelpa o automake'u.
 
 %prep
 %setup -q -c -n automake
